@@ -32,7 +32,7 @@ percentage_str = str(math.ceil(percentage_int))
 
 # Now we decide when to start sending warning signals...
 
-hungry_battery_level = 20   # This is the battery level at which bingpot start worrying. Set it
+hungry_battery_level = 20   # This is the battery level at which Harkness starts worrying. Set it
                             # wherever you like, really.
 
 if percentage_int <= warning_threshold:
